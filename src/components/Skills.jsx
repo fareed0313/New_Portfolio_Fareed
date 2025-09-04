@@ -19,7 +19,7 @@ const Skills = () => {
     [218, 112, 214], // Orchid
     [221, 160, 221], // Plum
     [216, 191, 216], // Thistle
-    [128, 0, 128],   // Dark Magenta
+    [0, 105, 148],   // MySQL - Deep Blue
     [56, 189, 248],  // Tailwind-like Sky Blue
     [70, 130, 180],  // Postgresql
     [57, 255, 20],   // Three.js - Neon Green
@@ -31,7 +31,8 @@ const Skills = () => {
     [255, 136, 0],   // Postman - Bright Orange
     [242, 101, 34],  // Java - Logo Orange
     [0, 201, 167],   //React Native - Bright Teal 
-    [255, 166, 17] // Firebase - Dark Tangerine
+    [255, 166, 17], // Firebase - Dark Tangerine
+    [240, 81, 51],  // Swift - Vivid Orange
   ];
 
   const icons = [
@@ -46,12 +47,12 @@ const Skills = () => {
       alt="Gsap"
       className="w-9 h-9 p-1 object-contain"
     />,
-    <FaPython key="python" className="text-white text-xl" />,
+    <FaPython key="Mysql" className="text-white text-xl" />,
     <img
-      key="flask"
-      src="/Flask.png"
-      alt="Flask"
-      className="w-9 h-9 p-1 object-contain"
+      key="MySQL"
+      src="/mysql_logo.png"
+      alt="Mysql"
+      className="w-15 h-15 p-1 object-contain"
     />,
     <img
       key="tailwind"
@@ -122,8 +123,14 @@ const Skills = () => {
     <img
       key="Firebase_Logo"
       src="/firebase_logo.png"
-      alt="React_Native"
+      alt="Firebase"
       className="w-11 h-12 px-1 pb-1 object-contain"
+    />,
+    <img
+      key="Swift_Logo"
+      src="/swift_logo.png"
+      alt="Swift"
+      className="w-10 h-10 px-1 pb-1 object-contain"
     />,
   ];
 
@@ -148,6 +155,7 @@ const Skills = () => {
     "/e6-piano.mp3",
     "/d6-piano.mp3",
     "/b6-piano.mp3",
+    "/g6-piano.mp3",
   ];
 
   const audioRefs = useRef([]);
