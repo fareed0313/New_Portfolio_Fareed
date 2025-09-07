@@ -20,7 +20,7 @@ const Skills = () => {
     [221, 160, 221], // Plum
     [216, 191, 216], // Thistle
     [0, 105, 148],   // MySQL - Deep Blue
-    [56, 189, 248],  // Tailwind-like Sky Blue
+    [56, 189, 248],  // MongoDB-like Sky Blue
     [70, 130, 180],  // Postgresql
     [57, 255, 20],   // Three.js - Neon Green
     [30, 41, 59],    //Next.js - Slate Blue
@@ -42,9 +42,9 @@ const Skills = () => {
     <FaJs key="js" className="text-white text-xl" />,
     <SiTypescript key="ts" className="text-white text-xl" />,
     <img
-      key="gsap"
-      src="/Gsap.png"
-      alt="Gsap"
+      key="GCP"
+      src="/GCP.png"
+      alt="GCP"
       className="w-9 h-9 p-1 object-contain"
     />,
     <FaPython key="Mysql" className="text-white text-xl" />,
@@ -55,34 +55,10 @@ const Skills = () => {
       className="w-15 h-15 p-1 object-contain"
     />,
     <img
-      key="tailwind"
-      src="/tailwind.png"
-      alt="Tailwind"
+      key="MongoDB"
+      src="/MongoDB.png"
+      alt="MongoDB"
       className="w-9 h-9 p-1 object-contain"
-    />,
-    <img
-      key="postgresql"
-      src="/postgresql.png"
-      alt="Postgresql"
-      className="w-9 h-9 p-1 object-contain"
-    />,
-    <img
-      key="three-js-logo"
-      src="/three-js-logo.png"
-      alt="three.js"
-      className="w-9 h-9 p-1 object-contain"
-    />,
-    <img
-      key="next-js-logo"
-      src="/next.png"
-      alt="Next.js"
-      className="w-15 h-15 p-1 object-contain"
-    />,
-    <img
-      key="motion_logo"
-      src="/motion_logo().png"
-      alt="motion"
-      className="w-15 h-15 p-1 object-contain"
     />,
     <img
       key="figma_logo"
@@ -97,40 +73,10 @@ const Skills = () => {
       className="w-13 h-12 p-1 object-contain"
     />,
     <img
-      key="ExpressJS_logo"
-      src="/ExpressJS_Logo.png"
-      alt="ExpressJS"
-      className="w-16 h-11 p-1 object-contain"
-    />,
-    <img
-      key="Postman_Logo"
-      src="/Postman_Logo.png"
-      alt="Postman"
-      className="w-15 h-15 p-1 object-contain"
-    />,
-    <img
       key="Java_Logo"
       src="/Java_Logo.png"
       alt="Java"
       className="w-13 h-14 px-1 pb-1 object-contain"
-    />,
-    <img
-      key="React_Native_Logo"
-      src="/react_native_logo.png"
-      alt="React_Native"
-      className="w-11 h-12 px-1 pb-1 object-contain"
-    />,
-    <img
-      key="Firebase_Logo"
-      src="/firebase_logo.png"
-      alt="Firebase"
-      className="w-11 h-12 px-1 pb-1 object-contain"
-    />,
-    <img
-      key="Swift_Logo"
-      src="/swift_logo.png"
-      alt="Swift"
-      className="w-10 h-10 px-1 pb-1 object-contain"
     />,
   ];
 
@@ -183,7 +129,7 @@ const Skills = () => {
 
       {/* Heading */}
       <h2 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-center bg-gradient-to-b from-neutral-300 to-neutral-500 bg-clip-text text-transparent z-20 mb-4 sm:mb-6">
-        Tools in My Arsenal
+        Keys in my Piano
       </h2>
 
       {/* Prompts */}

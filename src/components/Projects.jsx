@@ -10,66 +10,19 @@ import ProjectImage from "./utils/ProjectImage";
 
 const projects = [
   {
-    title: "Apple Website Clone",
-    description:
-      "A modern, animated clone of the official Apple website made with smooth scroll and transitions.",
-    link: "https://apple-website-ecru-xi.vercel.app/",
-    image: "/Apple_website.png",
+    title: "Energy Insight Pro",
+    description:"Energy Insight Pro is a smart analytics platform that monitors, visualizes, and optimizes energy usage to drive efficiency and sustainability.",
+    link: "https://energy-insight-pro.netlify.app/",
+    image: "/Energy.png",
     blurhash:"L02$Hd9Z00~pneofp0WB00?a~V01"
   },
   {
-    title: "Movies Website",
+    title: "Bizverse",
     description:
-      "Movie explorer website with sleek UI and live API integration.",
-    link: "https://movies-web-project-seven.vercel.app/",
-    image: "/Movies.png",
+      "Bizverse empowers small businesses with a trusted digital ecosystem to get verified, access government schemes, and grow with transparency and accountability.",
+    link: "https://bizverse.netlify.app/",
+    image: "/Bizverse.png",
     blurhash:"LACZ35PqnOi_T0X9a|WA00+FIpkW"
-  },
-  {
-    title: "To-Do App with Flask",
-    description:
-      "Flask-powered backend with persistent task management frontend.",
-    link: "https://todo-with-flask-a93d.onrender.com/",
-    image: "/Task_Master.png",
-    blurhash:"L13l5O9F4n%MD%t7t7Rj00t7_3IU"
-  },
-  {
-    title: "Temperature Converter (JS)",
-    description:
-      "Interactive converter for Celsius/Fahrenheit using plain JavaScript.",
-    link: "https://chaitanyasai-meka.github.io/Temperature_Converter_JS/code/index.html",
-    image: "/Temperature.png",
-    blurhash:"L2QT1Z3C~Xtm00%EV[R.00erD}fP"
-  },
-  {
-    title: "Capstone Project (HTML/CSS)",
-    description:
-      "Final capstone web project showcasing HTML and CSS skills.",
-    link: "https://chaitanyasai-meka.github.io/Capstone_Project/",
-    image: "/Capstone.png",
-    blurhash:"LhLz?TRk~qoe-=azM{ay?cs.MxbH"
-  },
-  {
-    title: "NST.TINDER",
-    description:
-      "NST Tinder: Matchmaking for Newton School with swipe, chat, and futuristic profiles.",
-    link: "https://nst-tinder.vercel.app",
-    image: "/nst_tinder.png",
-    blurhash:"L6Sp@kpw%#t70{Y*aza|0_aKIBbH"
-  },
-  {
-    title: "Healthy Middle-Class India",
-    description: "Healthy Middle-Class India: Tackles obesity and lifestyle diseases with systemic solutions.",
-    link: "https://fste-chi.vercel.app",
-    image: "/fste.png",
-    blurhash:"L1NAoU3}MZPp004N019c00UDI89H"
-  },
-  {
-    title: "CYBERFICTION",
-    description: "Features smooth scrolling and logo animation using HTML, CSS, JS, Lenis, and GSAP. ",
-    link: "https://chaitanyasai-meka.github.io/CYBERFICTION/",
-    image: "/cyberfiction.png",
-     blurhash:"LbOzMcWB_NxuR*t7RjRjogWBM{fk"
   },
   {
     title: "Coming Soon",
@@ -192,7 +145,7 @@ const Projects = () => {
       </div>
       <div>
       <a 
-      href="https://github.com/ChaitanyaSai-Meka"
+      href="https://github.com/fareed0313"
       target="_blank"
       rel="noopener noreferrer"
       className="bg-slate-800 no-underline group cursor-pointer relative shadow-2xl shadow-zinc-900 rounded-full p-px text-base font-semibold leading-6  text-white inline-block">

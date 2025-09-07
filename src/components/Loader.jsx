@@ -43,7 +43,10 @@ const Loader = ({ onComplete }) => {
         ref={textRef}
         className="text-6xl md:text-8xl font-extrabold bg-gradient-to-b from-neutral-200 to-neutral-500 bg-clip-text text-transparent leading-none text-center"
       >
-        Welcome!
+        Welcome to the World 
+        <br/>
+        of 
+        <br/>Shaik Fareed Baba !
       </h1>
     </div>
   );

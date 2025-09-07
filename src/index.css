@@ -230,8 +230,4 @@ html, body {
 html::-webkit-scrollbar {
   display: none;
 }
-html {
-  scrollbar-width: none; /* For Firefox */
-  -ms-overflow-style: none; /* For IE and Edge */
-}
 
